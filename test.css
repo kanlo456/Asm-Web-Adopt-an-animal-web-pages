@@ -15,18 +15,20 @@
   background-size: cover;
   position: relative;
 }
+
 nav{
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center; 
+    background-color: white;
 }
 
 nav img{
     width: 150px;
 }
 
-.nav-link{
+.nav-links{
     flex: 1;
     text-align: right;
 }
@@ -39,9 +41,9 @@ nav img{
 }
 
 .nav-links ul li a{
-    color:rgb(165, 197, 39);
+    color:rgb(35, 192, 14);
     text-decoration:none;
-    font-size: 13px;
+    font-size: 20px;
 }
 
 .nav-links ul li::after{
