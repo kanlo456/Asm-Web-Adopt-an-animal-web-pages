@@ -6,12 +6,18 @@
 .header{
   min-height: 100vh;
   width: 100%;
+  display:flex;
+  flex-direction: column;
+}
+
+.bgimg{
   background-image: linear-gradient(rgba(19, 199, 212, 0.32),rgba(42, 165, 231, 0.41)),url(image/background.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
+  flex-grow: 1;
+  filter: blur(1px) saturate(60%);
 }
-
 nav{
     display: flex;
     padding: auto;
@@ -68,6 +74,7 @@ nav img{
 
 .text-box h1{
     font-size: 62px;
+    text-shadow: white 2px 5px;
 }
 
 .Adopt{
