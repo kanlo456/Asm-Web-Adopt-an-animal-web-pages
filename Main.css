@@ -9,7 +9,12 @@
   display:flex;
   flex-direction: column;
 }
-
+.heading{
+    font-size: 20px;
+    display: flex;
+    color: rgb(14, 21, 228);
+    
+}
 .bgimg{
   background-image: linear-gradient(rgba(19, 199, 212, 0.32),rgba(42, 165, 231, 0.41)),url(image/background.jpg);
   background-position: center;
