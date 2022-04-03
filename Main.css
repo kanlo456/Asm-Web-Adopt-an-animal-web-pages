@@ -13,7 +13,8 @@
     font-size: 20px;
     display: flex;
     color: rgb(14, 21, 228);
-    
+    position:fixed;
+    left: 100px;
 }
 .bgimg{
   background-image: linear-gradient(rgba(19, 199, 212, 0.32),rgba(42, 165, 231, 0.41)),url(image/background.jpg);
@@ -102,6 +103,7 @@ nav img{
 @media (max-width: 700px) {
     .text-box h1{
         font-size: 20px;
+        
     }
     .nav-links ul li{
         display: block;
@@ -116,5 +118,5 @@ nav img{
         text-align: left;
         z-index: 2;
     }
-
+    
 }
