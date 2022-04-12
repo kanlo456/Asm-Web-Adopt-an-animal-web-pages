@@ -1,10 +1,17 @@
-/* *,
+*,
 *::before,
 *::after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-} */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
 body{
     background-color: aqua;
 }
@@ -28,4 +35,10 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
 }

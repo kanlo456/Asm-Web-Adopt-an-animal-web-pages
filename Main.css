@@ -15,8 +15,8 @@
     font-size: 30px;
     display: flex;
     color: rgb(29, 35, 225);
-    position: fixed;
     left: 100px;
+    position: absolute;
 }
 
 .bgimg {
