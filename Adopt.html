@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopt</title>
     <link rel="stylesheet" href="Adopt.css">
-   <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> 
-        <link rel="stylesheet" href="nav.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 </head>
-<body> 
+
+<body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="image/pet.jpg"></a>
-            <div class="heading">Pet Home</div>
+            <a href="Index.html"><img src="image/pet.jpg"></a>
+            <h1 class="heading">Pet Home</h1>
             <div class="nav-links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
+                <ul class="link">
+                    <li><a href="Index.html">Home</a></li>
                     <li><a href="About.html">About</a></li>
                     <li><a href="Adopt.html">Adopt</a></li>
-                    <li><a href="Contact.html">Contact</a>
-                        <ul>
-                            <li><a href="Phone Number">Phone Number</a></li>
-                            <li>< href="location">Location</d></li>
-                        </ul>
-                    </li>
+                    <li><a href="Contact.html">Contact</a></li>
                 </ul>
             </div>
+            <div class="subnav"></div>
         </nav>
-    <div class="popup">
-        <button id="close">&times;</button>
-        <h2>Please Adopt Me</h2>
-        <p>
-            Test
-        </p>
+
+        <div class="bgimg">
+            <div><h2>Please Adopt a pet</h2></div>
+            <div class="picture">
+                <a href="dog.html"><img src="image/dog.jpeg" alt="dog"></a>
+                <div class="content">Adopt a dog</div>
+            </div>
+
+            <div class="picture">
+                <a href="cat.html"><img src="image/cat.jpg" alt="cat"></a>
+                <div class="content">Adopt a cat</div>
+
+            </div>
         </div>
-        <script src="script.js"></script>
+
     </section>
+
 </body>
+
 </html>
