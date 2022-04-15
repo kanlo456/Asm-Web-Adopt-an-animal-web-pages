@@ -30,7 +30,7 @@
 
 nav {
     display: flex;
-    padding: auto;
+    /*padding: auto;*/
     justify-content: space-between;
     align-items: center;
     background-color: rgba(205, 238, 255, 255);
@@ -107,14 +107,14 @@ nav img {
 .homeVideo {
     display: flex;
     position: absolute;
-    width: 500px;
-    height: 281px;
+    width: 40vw;
+    aspect-ratio: 16/9;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%); 
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .text-box h1 {
         font-size: 20px;
 
