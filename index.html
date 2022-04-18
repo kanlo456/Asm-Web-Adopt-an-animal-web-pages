@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopt an animal</title>
     <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="Nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 </head>
-
 <body>
-    <section class="header">
-        <nav>
-            <a href="Index.html"><img src="image/pet.jpg"></a>
-            <h1 class="heading">Pet Home</h1>
-            <div class="nav-links">
-                <ul class="link">
-                    <li><a href="Index.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Adopt.html">Adopt</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
+<header>
+    <div class="logo"><a href="#"><img src="image/pet.jpg" alt="logo"></a></div>
+    <h1 class="logoName">Pet Home</h1>
+    <nav>
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Adopt.html">Adopt</a>
+                <ul class="dropdown">
+                    <li><a href="#">Cat</a> </li>
+                    <li><a href="#">Dog</a> </li>
                 </ul>
-            </div>
-        </nav>
-        <div class="bgimg"></div>
-         <div><iframe class="homeVideo" src="https://www.youtube.com/embed/tQzev_ZTrYQ" title="YouTube video player"
-            frameborder="0"
-            allowfullscreen></iframe>
-         </div>
-        <div class="text-box">
-            <h1>Please Adopt an animal!</h1>
-            <a href="Adopt.html" class="Adopt">Adopt Now</a>
-        </div>
-    </section>
+            </li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            g
+        </ul>
+    </nav>
+</header>
+<main>
+    <article>
+        <section>
+            <div class="bg-img"></div>
+            <div class="homeVideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/tQzev_ZTrYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="text-box"><h1>Please save the animals!</h1></div>
+            <div class="Adopt"><a href="#">Adopt Now!</a> </div>
+        </section>
+    </article>
+</main>
 </body>
-
 </html>
