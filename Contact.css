@@ -1,4 +1,4 @@
-.bg-img{
+.bg-img {
     /*outline: 2px solid black;*/
     background-image: linear-gradient(rgba(19, 212, 141, 0.32), rgba(42, 165, 231, 0.41)), url(image/background.jpg);
     background-size: cover;
@@ -6,14 +6,15 @@
     filter: blur(2px);
     display: flex;
 }
-.form{
+
+.form {
     border-radius: 10px;
     /*background-color: red;*/
     display: flex;
     font-size: 20px;
     justify-content: center;
     align-items: center;
-    top:50%;
+    top: 50%;
     left: 50%;
     z-index: 1;
     position: absolute;

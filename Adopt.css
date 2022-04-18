@@ -29,6 +29,7 @@ body {
 }
 
 h2 {
+  font-size: 300%;
   text-align: center;
   color: rgb(14, 72, 198);
   border: 1px;

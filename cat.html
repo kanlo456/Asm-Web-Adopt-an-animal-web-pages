@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopt cat</title>
     <link rel="stylesheet" href="cat.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -14,16 +15,43 @@
 </head>
 
 <body>
-    <h1>Please choose a cat</h1>
+    <header>
+        <div class="logo"><a href="index.html"><img src="image/pet.jpg" alt="logo"></a></div>
+        <h1 class="logoName">Pet Home</h1>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Adopt.html">Adopt</a>
+                    <ul class="dropdown">
+                        <li><a href="cat.html">Cat</a> </li>
+                        <li><a href="dog.html">Dog</a> </li>
+                    </ul>
+                </li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <article>
-        <a href="form.html"><img src="image/cat1.jpeg" alt=""></a>
-        <a href="form.html"><img src="image/cat2.jpg" alt=""></a>
-
-
+        <section>
+            <div>
+                <h2>Please choose a cat</h2>
+            </div>
+            <div class="picture">
+                <img src="image/cat1.jpeg" alt="cat1">
+                <a href="form.html">
+                    <div class="text">Adopt</div>
+                </a>
+            </div>
+            <div class="picture">
+                <img src="image/cat2.jpg" alt="cat2">
+                <a href="form.html">
+                    <div class="text">Adopt</div>
+                </a>
+            </div>
+        </section>
     </article>
-
-
 </body>
 
 </html>
