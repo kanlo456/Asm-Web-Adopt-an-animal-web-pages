@@ -20,3 +20,8 @@
     position: absolute;
     transform: translate(-50%, -50%);
 }
+
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
