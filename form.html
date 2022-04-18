@@ -15,27 +15,25 @@
 </head>
 
 <body>
-    <article>
-        <h1>Please enter the information</h1>
-        <form name="form" method="POST" onsubmit="checkResult()">
-            <fieldset>
-                <div>Name: <input type="text" name="name" pattern="^[A-Z][A-Za-z]*" placeholder="Chan Tai Man" required></div>
-                <div>Email-Address: <input type="email" name="email" id="" required></div>
-                <div>Age: <input type="number" name="age" min="18" required></div>
-                <div>Gender: <input type="radio" name="gender" value="M" required>Male
-                    <input type="radio" name="gender" value="F">Female
-                </div>
-                <div>Date of birth: <input type="date" name="dob" id="" required></div>
-                <div>Telephone: <input type="tel" name="telNumber" pattern="[0-9]{8}" placeholder="00000000" required></div>
+    <h1>Please enter the information</h1>
+    <form name="form" method="POST" onsubmit="checkResult()">
+        <fieldset>
+            <div>Name: <input type="text" name="name" pattern="^[A-Z][A-Za-z]*" placeholder="Chan Tai Man" required></div>
+            <div>Email-Address: <input type="email" name="email" id="" required></div>
+            <div>Age: <input type="number" name="age" min="18" required></div>
+            <div>Gender: <input type="radio" name="gender" value="M" required>Male
+                <input type="radio" name="gender" value="F">Female
+            </div>
+            <div>Date of birth: <input type="date" name="dob" id="" required></div>
+            <div>Telephone: <input type="tel" name="telNumber" pattern="[0-9]{8}" placeholder="00000000" required></div>
 
-                <div class="submit"><input type="submit" onclick="confirmSubmit()" value="Submit">
-                    <input type="reset" value="Reset">
-                </div>
-                <div></div>
-            </fieldset>
+            <div class="submit"><input type="submit" onclick="confirmSubmit()" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+            <div></div>
+        </fieldset>
+    </form>
 
-        </form>
-    </article>
 </body>
 
 </html>

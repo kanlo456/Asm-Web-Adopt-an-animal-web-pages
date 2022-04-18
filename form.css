@@ -4,11 +4,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
-h1{
-  
+h1 {
+  text-align: center;
+  position: relative;
 }
 
-article {
+body {
   background-image: linear-gradient(rgba(19, 212, 141, 0.32), rgba(42, 165, 231, 0.41)), url(image/background.jpg);
   background-position: center;
   background-size: cover;
@@ -20,10 +21,18 @@ div {
   margin-top: 10px;
 }
 
+form {
+  position: relative;
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+
 fieldset {
+  position: relative;
   border: 1px solid aqua;
   background-color: aquamarine;
   padding: 10px;
+  position: relative;
   text-align: center;
-  margin: 50px 100px;
 }

@@ -13,7 +13,6 @@ function checkResult() {
         + "\nDate of birth: " + dateOfBirth
         + "\nTelephone Number: " + telNumber);
 
-    var result = confirm("Are you sure?");
 }
 function confirmSubmit() {
     confirm("Are you sure?");

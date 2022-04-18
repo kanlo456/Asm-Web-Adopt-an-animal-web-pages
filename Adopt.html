@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopt</title>
     <link rel="stylesheet" href="Adopt.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -14,33 +15,41 @@
 </head>
 
 <body>
-    <section class="header">
+    <header>
+        <div class="logo"><a href="#"><img src="image/pet.jpg" alt="logo"></a></div>
+        <h1 class="logoName">Pet Home</h1>
         <nav>
-            <a href="Index.html"><img src="image/pet.jpg"></a>
-            <h1 class="heading">Pet Home</h1>
-            <div class="nav-links">
-                <ul class="link">
-                    <li><a href="Index.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Adopt.html">Adopt</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                </ul>
-            </div>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Adopt.html">Adopt</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Cat</a> </li>
+                        <li><a href="#">Dog</a> </li>
+                    </ul>
+                </li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
         </nav>
-    </section>
-
+    </header>
     <article>
 
-        <div class="h2">
+        <div>
             <h2>Please Adopt a pet</h2>
         </div>
 
         <div class="picture">
-            <a href="dog.html"><img src="image/dog.jpeg" alt="dog"></a>
+            <img src="image/dog.jpeg" alt="dog">
+            <a href="dog.html">
+                <div class="text">Adopt a dog</div>
+            </a>
         </div>
 
         <div class="picture">
-            <a href="cat.html"><img src="image/cat.jpg" alt="cat"></a>
+            <img src="image/cat.jpg" alt="cat">
+            <a href="cat.html">
+                <div class="text">Adopt a cat</div>
+            </a>
 
         </div>
     </article>
