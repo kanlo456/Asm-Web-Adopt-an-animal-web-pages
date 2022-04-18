@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  
+}
+
+article {
+  background-image: linear-gradient(rgba(19, 212, 141, 0.32), rgba(42, 165, 231, 0.41)), url(image/background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  flex-grow: 1;
+}
+
+div {
+  margin-top: 10px;
+}
+
+fieldset {
+  border: 1px solid aqua;
+  background-color: aquamarine;
+  padding: 10px;
+  text-align: center;
+  margin: 50px 100px;
+}
