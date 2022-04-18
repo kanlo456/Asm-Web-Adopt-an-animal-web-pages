@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: aqua;
+    border: solid;
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    display: flex;
+    border: solid;
+    width: 100px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+}
+article{
+    border: solid;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+
+}
+
+ul li{
+    display: block;
+    text-align: center;
+    list-style: none;
+}

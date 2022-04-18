@@ -18,7 +18,6 @@ nav {
     display: flex;
 }
 nav ul{
-    border: solid;
     display: flex;
     align-items: center;
     gap: 1rem;
