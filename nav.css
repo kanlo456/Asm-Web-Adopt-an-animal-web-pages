@@ -1,65 +1,65 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
-.header {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.heading {
-    font-size: 30px;
-    display: flex;
-    color: rgb(29, 35, 225);
-    left: 100px;
-    position: absolute;
-}
-
-
-nav {
-    display: flex;
-    padding: auto;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(205, 238, 255, 255);
-}
-
-nav img {
+.logo img{
     width: 100px;
 }
-
-.nav-links {
-    flex: 1;
-    text-align: right;
+.logo{
+    gap: 2rem;
 }
-
-.nav-links ul li {
+header{
+    display: flex;
+    background-color: rgba(205,238,255,255);
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+}
+nav ul{
+    border: solid;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 25px;
     list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
 }
-
-.nav-links ul li a {
-    color: rgb(33, 18, 246);
+nav ul li a{
+    list-style: none;
     text-decoration: none;
-    font-size: 20px;
+    color: #199fe5;
+}
+.logoName{
+    color: blue;
+    font-size: 30px;
+    display: inline-block;
+    left: 100px;
+    top: 50px;
+    position:absolute;
+    z-index: 2;
+    gap: 2rem;
 }
 
-.nav-links ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: rgb(237, 5, 5);
+nav ul li a:hover{
+    border: solid #199fe5;
+    border-radius: 10px;
+    display:block;
+    transition:0.5s;
+}
+
+nav ul li:hover>ul{
     display: block;
-    margin: auto;
-    transition: 0.5s;
+    position: absolute;
+    z-index: 1;
+    width: 70px;
 }
 
-.nav-links ul li:hover::after {
-    width: 100%;
+.dropdown{
+    background-color: #041360;
+    border-radius: 10px;
+    display: none;
 }
+
+
+
