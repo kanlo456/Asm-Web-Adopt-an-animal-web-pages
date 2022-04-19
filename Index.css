@@ -11,7 +11,16 @@
     filter: blur(2px);
     display: flex;
 }
-
+.vistLink {
+    display: flex;
+    width:90%;
+    color: rgb(248, 13, 13);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
 .homeVideo {
     display: flex;
     position: absolute;
@@ -65,5 +74,14 @@
 .Adopt a:hover{
     color: blue;
     text-shadow: white 2px 3px;
+}
+
+@media screen and (max-width:800px){
+    .text-box h1{
+        font-size: 30px;
+    }
+    .Adopt{
+        font-size: 20px;
+    }
 }
 

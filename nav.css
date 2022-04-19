@@ -59,3 +59,10 @@ nav ul li:hover>ul{
     border-radius: 10px;
     display: none;
 }
+
+
+@media screen and (max-width: 800px){
+    nav ul {
+        flex-direction: column;
+    }
+}

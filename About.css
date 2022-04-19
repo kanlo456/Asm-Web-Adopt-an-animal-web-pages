@@ -3,7 +3,33 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-image: linear-gradient(rgba(19, 212, 141, 0.32), rgba(42, 165, 231, 0.41)), url(image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    flex-grow: 1;
+    height: 100vh;
+    }
 
-.bg-img{
+table {
+    border: 2px solid blue;
+    background-color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
 
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
+
+td,th{
+     border: 1px solid rgb(190, 190, 190);
+     padding: 10px;
 }
