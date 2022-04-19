@@ -4,39 +4,39 @@
 }
 
 .logo img{
-    width: 100px;
+    width: 100px; /*set image size*/
 }
 .logo{
     gap: 2rem;
 }
 header{
-    display: flex;
+    display: flex; /*set display flex*/
     background-color: rgba(205,238,255,255);
-    justify-content: space-between;
+    justify-content: space-between; /* set flex have space in the middle*/
 }
 nav {
     display: flex;
 }
 nav ul{
     display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-size: 25px;
-    list-style: none;
+    align-items: center; /*set text into center*/
+    gap: 1rem; /*set flex box gap*/
+    font-size: 25px; 
+    list-style: none; /*set no list style*/
 }
 nav ul li a{
     list-style: none;
-    text-decoration: none;
+    text-decoration: none;/*set no line in the bottom*/
     color: #199fe5;
 }
-.logoName{
+.logoName{ 
     color: blue;
     font-size: 30px;
     display: inline-block;
     left: 100px;
     top: 50px;
     position:absolute;
-    z-index: 2;
+    z-index: 2; /*set the layer will not be cover*/
     gap: 2rem;
 }
 
@@ -47,7 +47,7 @@ nav ul li a:hover{
     transition:0.5s;
 }
 
-nav ul li:hover>ul{
+nav ul li:hover>ul{ /*set when hover the ul li then select the all children */
     display: block;
     position: absolute;
     z-index: 1;
@@ -61,7 +61,7 @@ nav ul li:hover>ul{
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px){ /*set response */
     nav ul {
         flex-direction: column;
     }

@@ -5,15 +5,14 @@
 
 footer{
     height: 100px;
-    
     background-color: rgb(88, 234, 236);
 }
 
 .link ul{
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: center; 
+    gap: 1rem; /*set box gap*/
     
 }
 link ul li{
@@ -24,7 +23,7 @@ link ul li{
     display: block;
 }
 
-.copyRight{
+.copyRight{ 
     display: flex;
-    justify-content: center;
+    justify-content: center; /*set position to center*/
 }

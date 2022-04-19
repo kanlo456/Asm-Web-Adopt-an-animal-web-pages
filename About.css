@@ -5,23 +5,24 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(19, 212, 141, 0.32), rgba(42, 165, 231, 0.41)), url(image/background.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+    
+    background-image: linear-gradient(rgba(19, 212, 141, 0.32), rgba(42, 165, 231, 0.41)), url(image/background.jpg);/*set blue ;ayer*/
+    background-position: center;  /*set bakground-position to center*/
+    background-size: cover;  /*set the backgorund cover the page*/
+    position: relative; /*set position relatibe*/
     flex-grow: 1;
-    height: 100vh;
+    height: 100vh; /*set background height*/
 }
 
 section {
-    display: flex;
-    flex-flow: row wrap;
+    display: flex; 
+    flex-flow: row wrap; /*set teh flex box to auto change the wrap */
 }
 
-section img {
+section img { /*set image size*/
     width: 200px;
     height: 200px;
-    float: left;
+    float: left; /*set position*/
     margin: 10px;
 }
 
@@ -42,12 +43,12 @@ section img {
     color: royalblue;
 }
 
-table {
+table { /*set table size*/
     order: 2;
     border: 2px solid blue;
     background-color: aliceblue;
     text-align: center;
-    display: inline-block;
+    display: inline-block; 
     font-size: 20px;
     margin-top: 5px;
 }
@@ -62,22 +63,22 @@ table {
 }
 
 
-th[scope="col"] {
+th[scope="col"] { /*set column color*/
     background-color: #696969;
     color: #fff;
 }
 
-th[scope="row"] {
+th[scope="row"] {/*set row color*/
     background-color: #d7d9f2;
 }
 
 td,
-th {
+th { /*set boder color*/
     border: 1px solid rgb(190, 190, 190);
     padding: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {  /*set response*/ 
 
     table,
     th,
