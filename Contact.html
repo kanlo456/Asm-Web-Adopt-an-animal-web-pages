@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script type="text/javascript" src="contact.js"></script>
 </head>
 
 <body>
@@ -36,17 +37,17 @@
         <article>
             <div class="bg-img"></div>
             <div class="form">
-                <form action="" method="post">
+                <form name="contact" method="post" onsubmit="checkInfo()">
                     <h1>Contact Us</h1>
                     <div class="input">Your Name:
                         <input type="text" name="name" required>
                     </div>
                     <div class="input">Gender:
-                        <input type="radio" name="gender" value="M" checked="checked">Male
-                        <input type="radio" name="gender" value="F" >Female
+                        <input type="radio" name="gender" value="M" required>Male
+                        <input type="radio" name="gender" value="F">Female
                     </div>
                     <div class="input">Phone Number:
-                        <input type="number" name="phoneNumber" required>
+                        <input type="number" name="telNumber" required>
                     </div>
                     <div class="input">Email Address:
                         <input type="email" name="email" required>
@@ -57,7 +58,7 @@
                         </label>
                     </div>
                     <div class="input">
-                        <input type="submit" value="Send Form">
+                        <input type="submit" onclick="confirmSubmit()" value="Send">
                         <input type="reset" value="Reset">
                         <!-- <button type="submit">Send Form</button> -->
                     </div>

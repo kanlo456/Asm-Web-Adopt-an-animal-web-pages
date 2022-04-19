@@ -38,16 +38,34 @@
     <h1>Please enter the information</h1>
     <form name="form" method="POST" onsubmit="checkResult()">
         <fieldset>
-            <div class="input"><label>Name:</label><input type="text" name="name" pattern="^[A-Z][A-Za-z]*" placeholder="Chan Tai Man" required></div>
-            <div class="input"><label> Email-Address: </label><input type="email" name="email" id="" required></div>
-            <div class="input"><label>Age: </label><input type="number" name="age" min="18" required></div>
-            <div class="input"><label>Gender: </label><input type="radio" name="gender" value="M" required>Male
+            <div class="input">
+                <label>Name:</label>
+                <input type="text" name="name" pattern="^[A-Z][A-Za-z]*" placeholder="Chan Tai Man" required>
+            </div>
+            <div class="input">
+                <label> Email-Address: </label>
+                <input type="email" name="email" id="" required>
+            </div>
+            <div class="input">
+                <label>Age: </label>
+                <input type="number" name="age" min="18" required>
+            </div>
+            <div class="input">
+                <label>Gender: </label>
+                <input type="radio" name="gender" value="M" required>Male
                 <input type="radio" name="gender" value="F">Female
             </div>
-            <div class="input"><label>Date of birth: </label><input type="date" name="dob" id="" required></div>
-            <div class="input"><label>Telephone: </label><input type="tel" name="telNumber" pattern="[0-9]{8}" placeholder="00000000" required></div>
+            <div class="input">
+                <label>Date of birth: </label>
+                <input type="date" name="dob" id="" required>
+            </div>
+            <div class="input">
+                <label>Telephone: </label>
+                <input type="tel" name="telNumber" pattern="[0-9]{8}" placeholder="00000000" required>
+            </div>
 
-            <div class="submit"><input type="submit" onclick="confirmSubmit()" value="Submit">
+            <div class="submit">
+                <input type="submit" onclick="confirmSubmit()" value="Submit">
                 <input type="reset" value="Reset">
             </div>
         </fieldset>
