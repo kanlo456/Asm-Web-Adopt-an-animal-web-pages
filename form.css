@@ -1,3 +1,4 @@
+/*used font of the page*/
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@ h1 {
   text-align: center;
   position: relative;
 }
-
+/*background color and image of the page*/
 body {
   background-image: linear-gradient(rgba(19, 212, 141, 0.32), rgba(42, 165, 231, 0.41)), url(image/background.jpg);
   background-position: center;
@@ -31,14 +32,14 @@ label {
   width: 150px;
   display: inline-block;
 }
-
+/*details of the form*/
 form {
   position: relative;
   width: auto;
   height: auto;
   align-items: center;
 }
-
+/*fieldset details of the form*/
 fieldset {
   position: relative;
   border: 1px solid aqua;

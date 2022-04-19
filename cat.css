@@ -1,3 +1,4 @@
+/*used font of the page*/
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +20,7 @@
     left: 100px;
 }
 
+/*background color and image of the page*/
 body {
     background-image: linear-gradient(rgba(19, 212, 141, 0.32), rgba(42, 165, 231, 0.41)), url(image/background.jpg);
     background-position: center;
@@ -33,8 +35,9 @@ h2 {
     text-align: center;
     color: rgb(14, 72, 198);
     border: 1px;
-  }
+}
 
+/*details of the picture box*/
 .picture {
     background-color: rgb(127, 220, 220);
     border: 1px solid rgb(0, 79, 148);
@@ -55,11 +58,13 @@ h2 {
     object-fit: scale-down;
 }
 
+/*effects when hover on the image*/
 .picture:hover img {
     transition: 0.5s;
     filter: blur(2px) saturate(50%);
 }
 
+/*details of the texts on the image box*/
 .picture .text {
     opacity: 0;
     top: 50%;
@@ -71,7 +76,7 @@ h2 {
     color: rgb(255, 255, 255);
     padding: 10px 10px;
 }
-
+/*text effect when hover on the picture box*/
 .picture:hover .text {
     opacity: 1;
 }

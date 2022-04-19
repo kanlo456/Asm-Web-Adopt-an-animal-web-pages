@@ -1,31 +1,35 @@
+/*used font of the page*/
 * {
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
+/*background color and image of the page*/
 body {
-    
-    background-image: linear-gradient(rgba(19, 212, 141, 0.32), rgba(42, 165, 231, 0.41)), url(image/background.jpg);/*set blue ;ayer*/
-    background-position: center;  /*set bakground-position to center*/
-    background-size: cover;  /*set the backgorund cover the page*/
-    position: relative; /*set position relatibe*/
+    background-image: linear-gradient(rgba(19, 212, 141, 0.32), rgba(42, 165, 231, 0.41)), url(image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
     flex-grow: 1;
-    height: 100vh; /*set background height*/
+    height: 100vh;
 }
+
 
 section {
-    display: flex; 
-    flex-flow: row wrap; /*set teh flex box to auto change the wrap */
+    display: flex;
+    flex-flow: row wrap;
 }
 
-section img { /*set image size*/
+/* details of the image in section tag*/
+section img {
     width: 200px;
     height: 200px;
-    float: left; /*set position*/
+    float: left;
     margin: 10px;
 }
 
+/*details of the top class*/
 #top {
     order: 1;
     background-color: rgb(172, 255, 255);
@@ -43,16 +47,7 @@ section img { /*set image size*/
     color: royalblue;
 }
 
-table { /*set table size*/
-    order: 2;
-    border: 2px solid blue;
-    background-color: aliceblue;
-    text-align: center;
-    display: inline-block; 
-    font-size: 20px;
-    margin-top: 5px;
-}
-
+/*details of the main tag*/
 #main {
     order: 3;
     background-color: rgb(172, 255, 255);
@@ -62,23 +57,34 @@ table { /*set table size*/
     -webkit-column-count: 2;
 }
 
+/*details of the table*/
+table {
+    order: 2;
+    border: 2px solid blue;
+    background-color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 5px;
+}
 
-th[scope="col"] { /*set column color*/
+th[scope="col"] {
     background-color: #696969;
     color: #fff;
 }
 
-th[scope="row"] {/*set row color*/
+th[scope="row"] {
     background-color: #d7d9f2;
 }
 
 td,
-th { /*set boder color*/
+th {
     border: 1px solid rgb(190, 190, 190);
     padding: 10px;
 }
 
-@media screen and (max-width: 800px) {  /*set response*/ 
+/*arrangement when the width of the page is less than 800 pixel*/
+@media screen and (max-width: 800px) {
 
     table,
     th,
